@@ -1,5 +1,5 @@
 # Multi-agent Motion Planning from Signal Temporal Logic Specifications
-The full paper is available at https://daweisun.me/static/MA-STL.pdf
+The full paper is available at https://arxiv.org/abs/2201.05247
 
 ## Requirements
 Please install the Gurobi optimizer by following the instructions on the official website https://www.gurobi.com/products/gurobi-optimizer/
