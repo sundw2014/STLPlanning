@@ -275,6 +275,12 @@ def plan(x0s, specs, bloat, limits=None, num_segs=None, tasks=None, vmax=3., MIP
     for num_segs in range(min_segs, max_segs+1):
         for spec in specs:
             clearSpecTree(spec)
+
+        if tasks:
+            for task in tasks:
+                for t in task:
+                    clearSpecTree(t)
+
         print('----------------------------')
         print('num_segs', num_segs)
 
